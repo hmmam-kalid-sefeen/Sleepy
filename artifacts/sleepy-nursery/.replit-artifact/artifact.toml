@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "The Sleepy Nursery"
+description = "A warm, practical website for The Sleepy Nursery, sharing baby sleep guidance and introducing sleep essentials for parents and caregivers."
+version = "1.0.0"
+id = "artifacts/sleepy-nursery"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20730
+
+[services.development]
+run = "pnpm --filter @workspace/sleepy-nursery run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/sleepy-nursery", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/sleepy-nursery/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20730"
+BASE_PATH = "/"
