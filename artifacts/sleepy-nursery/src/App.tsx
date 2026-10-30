@@ -12,7 +12,7 @@ function App() {
     <main className="site-shell min-h-[100dvh] bg-[#f4f0e7]">
       <header className="relative z-20 mx-auto flex max-w-[1440px] items-center justify-between px-5 py-5 sm:px-9 lg:px-16">
         <a href="#home" aria-label="The Sleepy Nursery home" className="flex items-center gap-3">
-          <span className="grid h-11 w-11 place-items-center rounded-full bg-[#203738] text-[#f4f0e7]"><Moon size={19} strokeWidth={1.7} /></span>
+          <img src="/sleepy-nursery-logo.jpg" alt="" className="h-11 w-11 shrink-0 rounded-full border border-[#d2bb90] object-cover object-center shadow-sm" />
           <span className="leading-tight">
             <span className="display block text-[1.27rem] text-[#263b3c]">the sleepy nursery</span>
             <span className="eyebrow mt-1 block text-[.52rem] text-[#71817b]">little nights, gentler days</span>
@@ -132,7 +132,10 @@ function App() {
 
       <footer className="border-t border-[#d9d1c2] px-5 py-8 sm:px-9 lg:px-16">
         <div className="mx-auto flex max-w-[1312px] flex-col items-center justify-between gap-5 text-center sm:flex-row sm:text-left">
-          <a href="#home" className="display text-xl text-[#263b3c]">the sleepy nursery</a>
+          <a href="#home" aria-label="The Sleepy Nursery home" className="inline-flex items-center gap-3">
+            <img src="/sleepy-nursery-logo.jpg" alt="" className="h-10 w-10 shrink-0 rounded-full border border-[#d2bb90] object-cover object-center shadow-sm" />
+            <span className="display text-xl text-[#263b3c]">the sleepy nursery</span>
+          </a>
           <p className="max-w-xl text-[.7rem] leading-5 text-[#72807a]">General information only; not medical advice. For questions about your child’s sleep or safety, speak with a qualified healthcare professional.</p>
           <a href={instagram} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-xs font-semibold text-[#476e6c]"><Instagram size={14} /> @thesleepynursery</a>
         </div>
