@@ -22,14 +22,14 @@ function App() {
           <a className="nav-link" href="#our-way">Our way</a>
           <a className="nav-link" href="#nightstand">The nightstand</a>
           <a className="nav-link" href="#notes">Little notes</a>
-          <a className="rounded-full bg-[#203738] px-5 py-3 text-[#f6f1e7] transition hover:bg-[#476e6c]" href={linktree} target="_blank" rel="noreferrer">Find your way <ArrowUpRight className="ml-2 inline" size={15} /></a>
+          <a className="rounded-full bg-[#203738] px-5 py-3 text-[#f6f1e7] transition hover:bg-[#476e6c]" href="https://linktr.ee/Thesleepynursury" target="_blank" rel="noreferrer">Find your way <ArrowUpRight className="ml-2 inline" size={15} /></a>
         </nav>
         <button aria-label={menuOpen ? 'Close menu' : 'Open menu'} aria-expanded={menuOpen} className="grid h-11 w-11 place-items-center rounded-full border border-[#d8d1c3] text-[#263b3c] md:hidden" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X size={20} /> : <Menu size={20} />}</button>
       </header>
       {menuOpen && <nav aria-label="Mobile navigation" className="absolute left-4 right-4 top-[78px] z-30 rounded-2xl border border-[#ded6c7] bg-[#fbf8f0] p-5 shadow-xl md:hidden">
         <div className="flex flex-col gap-1 text-[#263b3c]">
           {[['Our way', '#our-way'], ['The nightstand', '#nightstand'], ['Little notes', '#notes']].map(([label, href]) => <a key={href} href={href} onClick={closeMenu} className="rounded-xl px-3 py-3 hover:bg-[#efe8d9]">{label}</a>)}
-          <a href={linktree} target="_blank" rel="noreferrer" onClick={closeMenu} className="mt-2 rounded-full bg-[#203738] px-4 py-3 text-center text-[#f4f0e7]">Explore the links <ArrowUpRight className="ml-1 inline" size={15} /></a>
+          <a href="https://linktr.ee/Thesleepynursury" target="_blank" rel="noreferrer" onClick={closeMenu} className="mt-2 rounded-full bg-[#203738] px-4 py-3 text-center text-[#f4f0e7]">Explore the links <ArrowUpRight className="ml-1 inline" size={15} /></a>
         </div>
       </nav>}
 
