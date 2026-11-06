@@ -125,7 +125,7 @@ function App() {
           <div><p className="eyebrow mb-4 text-[#8b604d]">Come say hello</p><h2 className="display max-w-[700px] text-4xl leading-tight text-[#263b3c] sm:text-5xl">Good nights start with feeling understood.</h2><p className="mt-4 max-w-[550px] text-sm leading-7 text-[#5d706d]">Find gentle reminders, practical sleep notes, and links to nighttime essentials on our Instagram and Linktree.</p></div>
           <div className="flex flex-wrap gap-3">
             <a href={instagram} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-[#203738] px-5 py-3.5 text-sm font-semibold text-[#f4f0e7] transition hover:bg-[#476e6c]"><Instagram size={16} /> Instagram <ArrowUpRight size={14} /></a>
-            <a href={linktree} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full border border-[#8c9688] px-5 py-3.5 text-sm font-semibold text-[#263b3c] transition hover:bg-[#f4f0e7]">Explore links <ArrowUpRight size={14} /></a>
+            <a href="https://linktr.ee/Thesleepynursury" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full border border-[#8c9688] px-5 py-3.5 text-sm font-semibold text-[#263b3c] transition hover:bg-[#f4f0e7]">Explore links <ArrowUpRight size={14} /></a>
           </div>
         </div>
       </section>
