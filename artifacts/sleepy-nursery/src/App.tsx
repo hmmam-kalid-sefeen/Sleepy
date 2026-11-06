@@ -89,15 +89,15 @@ function App() {
             <p className="max-w-[330px] pb-1 text-sm leading-7 text-[#c1cebf]">A starting point, not a shopping list. Browse the categories and find details through our links.</p>
           </div>
           <div className="mt-14 grid gap-3 md:grid-cols-3">
-            <a href={linktree} target="_blank" rel="noreferrer" className="category-card group flex min-h-[280px] flex-col justify-between rounded-[22px] bg-[#304b4a] p-6 sm:p-8">
+            <a href="https://linktr.ee/Thesleepynursury" target="_blank" rel="noreferrer" className="category-card group flex min-h-[280px] flex-col justify-between rounded-[22px] bg-[#304b4a] p-6 sm:p-8">
               <div className="flex items-start justify-between"><span className="grid h-14 w-14 place-items-center rounded-full bg-[#e3c58e] text-[#263b3c]"><span className="relative block h-7 w-5 rounded-t-full bg-[#d9987c] before:absolute before:-left-2 before:top-5 before:h-2 before:w-9 before:rounded-full before:bg-[#d9987c]"><span className="absolute left-2 top-1 h-3 w-1 rounded-full bg-[#f7e4b2]" /></span></span><ArrowUpRight className="category-arrow text-[#d9987c]" /></div>
               <div><p className="eyebrow text-[#d9987c]">01 — Settle in</p><h3 className="display mt-2 text-3xl">Soft light</h3><p className="mt-2 max-w-[280px] text-sm leading-6 text-[#c3d0c7]">A gentler glow for those in-between hours.</p></div>
             </a>
-            <a href={linktree} target="_blank" rel="noreferrer" className="category-card group flex min-h-[280px] flex-col justify-between rounded-[22px] bg-[#394f4d] p-6 sm:p-8">
+            <a href="https://linktr.ee/Thesleepynursury" target="_blank" rel="noreferrer" className="category-card group flex min-h-[280px] flex-col justify-between rounded-[22px] bg-[#394f4d] p-6 sm:p-8">
               <div className="flex items-start justify-between"><span className="grid h-14 w-14 place-items-center rounded-full bg-[#d6c4b0] text-[#263b3c]"><span className="relative flex gap-1"><i className="h-5 w-1 rounded-full bg-[#476e6c]" /><i className="h-8 w-1 rounded-full bg-[#476e6c]" /><i className="h-4 w-1 rounded-full bg-[#476e6c]" /><i className="h-6 w-1 rounded-full bg-[#476e6c]" /></span></span><ArrowUpRight className="category-arrow text-[#d9987c]" /></div>
               <div><p className="eyebrow text-[#d9987c]">02 — Find a hush</p><h3 className="display mt-2 text-3xl">Steady sounds</h3><p className="mt-2 max-w-[280px] text-sm leading-6 text-[#c3d0c7]">Explore white noise and other calming sound options.</p></div>
             </a>
-            <a href={linktree} target="_blank" rel="noreferrer" className="category-card group flex min-h-[280px] flex-col justify-between rounded-[22px] bg-[#4b5e59] p-6 sm:p-8">
+            <a href="https://linktr.ee/Thesleepynursury" target="_blank" rel="noreferrer" className="category-card group flex min-h-[280px] flex-col justify-between rounded-[22px] bg-[#4b5e59] p-6 sm:p-8">
               <div className="flex items-start justify-between"><span className="grid h-14 w-14 place-items-center rounded-full bg-[#e5c99d] text-[#263b3c]"><Moon size={25} strokeWidth={1.5} /></span><ArrowUpRight className="category-arrow text-[#e3c58e]" /></div>
               <div><p className="eyebrow text-[#e3c58e]">03 — Make room</p><h3 className="display mt-2 text-3xl">Sleepy helpers</h3><p className="mt-2 max-w-[280px] text-sm leading-6 text-[#d2d7ca]">A few sleep-aid categories to explore at your own pace.</p></div>
             </a>
